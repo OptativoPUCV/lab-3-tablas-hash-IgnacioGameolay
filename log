@@ -42,3 +42,7 @@ hashmap.c:140:5: error: 'for' loop initial declarations are only allowed in C99 
      for (long i = map->current + 1; i < map->capacity; i++) {
      ^
 d137817
+Tue, Apr 15, 2025  6:43:07 PM: 
+ tests:  17|0
+total_score: 70/70
+2b286c7
