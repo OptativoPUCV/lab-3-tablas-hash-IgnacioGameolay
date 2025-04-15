@@ -23,3 +23,22 @@ Tue, Apr 15, 2025  6:42:36 PM:
  tests:  0|6
 total_score: 0/70
 e2d1b2e
+Tue, Apr 15, 2025  6:42:52 PM: 
+ hashmap.c | 77 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ 1 file changed, 74 insertions(+), 3 deletions(-)
+Compilation failed
+In file included from test.c:4:0:
+hashmap.c: In function 'enlarge':
+hashmap.c:74:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+     for (long i = 0; i < old_capacity; i++) {
+     ^
+hashmap.c:74:5: note: use option -std=c99, -std=gnu99, -std=c11 or -std=gnu11 to compile your code
+hashmap.c: In function 'firstMap':
+hashmap.c:127:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+     for (long i = 0; i < map->capacity; i++) {
+     ^
+hashmap.c: In function 'nextMap':
+hashmap.c:140:5: error: 'for' loop initial declarations are only allowed in C99 or C11 mode
+     for (long i = map->current + 1; i < map->capacity; i++) {
+     ^
+d137817
