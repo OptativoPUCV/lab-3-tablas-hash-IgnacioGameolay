@@ -12,3 +12,10 @@ test.c:8:8: error: '_strdup' redeclared without dllimport attribute: previous dl
         ^
 cc1.exe: all warnings being treated as errors
 e2ffb6b
+Tue, Apr 15, 2025  6:39:40 PM: 
+Compilation failed
+test.c:8:8: error: '_strdup' redeclared without dllimport attribute: previous dllimport ignored [-Werror=attributes]
+ char * _strdup(const char * str) {
+        ^
+cc1.exe: all warnings being treated as errors
+0b007df
